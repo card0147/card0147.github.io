@@ -1,0 +1,310 @@
+/*************************************************HOME PAGE/INDEX**************************************************/
+
+/**MAIN SHOWCASE**/
+#showcase {
+    min-height: 400px;
+    background: url('../img/main-image.jpg') no-repeat -700px -50px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px #222629;
+    filter: drop-shadow(5px 5px 3px #222629);
+}
+
+
+#showcase h1 {
+    margin-top: 65px;
+    font-size: 48px;
+    margin-bottom: 10px;
+    line-height: 1.05em;
+
+}
+
+#showcase p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*****************************************************ABOUT PAGE***************************************************/
+
+/*ABOUT IMAGE*/
+.aboutImage {
+    width: 70%;
+    height: auto;
+    margin: 15px;
+}
+#aboutMe{
+    color: white;
+    padding: 10px;
+    text-align: justify;
+}
+#aboutMe h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/***************************************************PORTFOLIO PAGE************************************************/
+#myPortfolio h1 {
+    font-size: 48px;
+    line-height: 1.05em;
+}
+
+
+#myPortfolio h1,
+#myPortfolio figcaption {
+    color: white;
+    text-align: center;
+}
+
+
+
+.portfolio {
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/***************************************************CONTACT PAGE************************************************/
+/*GENERAL STYLE*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+.contact {
+    margin: 2rem;
+    max-width: 50rem;
+}
+
+.contact label {
+    display: block;
+}
+
+.contact fieldset{
+    border: 2px solid #86C232;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+.contact legend{
+    font-size: 1rem;
+    padding: 0 0.5rem;
+}
+
+.contact .form-box{
+    margin: 0 0 1rem 0;
+}
+
+#submit-btn{
+    background-color: #61892F;
+}
+
+#submit-btn:hover{
+    background-color: #86C232;
+}
+
+.contact input,
+.contact textarea {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.75rem;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
+.contactInfo{
+    padding-left: 30px;
+}
+
+.contactInfo h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/**************************************APPLICABLE TO ALL PAGES****************************************************/
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #6B6E70;
+}
+
+/**GLOBAL**/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**HEADER**/
+header {
+    background-color: #222629;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid white;
+}
+
+/**NAVIGATION**/
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+}
+
+header #header {
+    float: left;
+}
+
+.headerLogo {
+    margin: 0;
+    max-width: 40%;
+    height: auto;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .current {
+    color: #61892F;
+}
+
+header a:hover {
+    color: #86C232;
+}
+
+/**FOOTER**/
+footer {
+    padding: 25px;
+    margin-top: 20px;
+    color: white;
+    background-color: #222629;
+    text-align: center;
+}
+
+/*BACK TO TOP*/
+a {
+    color: white;
+    text-decoration: none;
+    float: left;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+/*BACK TO TOP HOVER*/
+a:hover {
+    color: #86C232;
+}
+
+/********************************BREAKPOINT FOR TABLET VIEW*******************************************/
+
+/* TABLET VIEW (when screen is a max width of 768px) */
+@media (max-width: 768px) {
+
+    header #header,
+    header nav,
+    header nav li
+        {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+    
+    #showcase {
+    min-height: 400px;
+    background: url('../img/main-image.jpg') no-repeat -1300px -50px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px #222629;
+    filter: drop-shadow(5px 5px 3px #222629);
+}
+
+    #showcase h1 {
+        margin-top: 40px;
+    }
+
+    #myPortfolio h1 {
+        font-size: 40px;
+        line-height: 1.125em;
+    }
+    
+    .portfolio {
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    /********************************BREAKPOINT FOR MOBILE VIEW*******************************************/
+    @media (max-width: 550px) {
+
+        header #header,
+        header nav,
+        header nav li
+            {
+            float: none;
+            text-align: center;
+            width: 100%;
+        }
+
+        header {
+            padding-bottom: 20px;
+        }
+        
+        #showcase {
+    min-height: 400px;
+    background: url('../img/main-image.jpg') no-repeat -1500px -50px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px #222629;
+    filter: drop-shadow(5px 5px 3px #222629);
+}
+
+        #showcase h1 {
+            margin-top: 40px;
+        }
+
+        #myPortfolio h1 {
+            font-size: 32px;
+            line-height: 1.25em;
+        }
+        
+        .portfolio {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
