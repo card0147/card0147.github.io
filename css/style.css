@@ -308,4 +308,7 @@ a:hover {
     margin-right: auto;
     margin-left: auto;
 }
-
+footer {
+    padding: 25px;
+    margin-bottom: 20px;
+}
