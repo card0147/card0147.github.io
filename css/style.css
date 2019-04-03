@@ -203,7 +203,7 @@ header a:hover {
 /**FOOTER**/
 footer {
     padding: 25px;
-    margin: 20px;
+    margin-top: 20px;
     color: white;
     background-color: #222629;
     text-align: center;
@@ -307,8 +307,4 @@ a:hover {
     padding: 20px;
     margin-right: auto;
     margin-left: auto;
-}
-footer {
-    padding: 25px;
-    margin-bottom: 20px;
 }
